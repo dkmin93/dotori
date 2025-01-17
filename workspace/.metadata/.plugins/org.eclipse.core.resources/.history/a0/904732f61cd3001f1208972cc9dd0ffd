@@ -1,0 +1,13 @@
+package day01;
+
+public class Example03 {
+	
+	public static void main(String[] args) {
+		
+		//향상된 배열, 리스트를 쉽게 사용할 수 있게 해주는 반복문
+		
+		for(변수 : 배열명) {
+		
+	}
+
+}

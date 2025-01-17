@@ -1,0 +1,17 @@
+package dotori;
+
+public class first {
+	
+	public static void main(String[] args) {
+		
+		//큰 타입을 작은 입에 넣을 때
+		int i = (int)d;
+		
+		long l = 10L;
+		int j = (int)l;
+		
+		System.out.println("==============================");
+		
+	}
+
+}

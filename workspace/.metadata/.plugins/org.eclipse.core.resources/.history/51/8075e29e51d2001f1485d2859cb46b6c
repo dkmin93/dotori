@@ -1,0 +1,31 @@
+package dotori;
+
+public class first {
+	
+	public static void main(String[] args) {
+		
+		//형변환
+		//데이터 타입의 크기
+		// byte < short < int < long < float < double
+		
+		//작은 타입을 큰 타입에 넣을 때는 자동으로 형변환 해준다
+		byte a = 1;
+		double d= a; //자동 형변환
+		System.out.println(d);
+		
+		//큰 타입을 작은 타입에 넣을 때
+		int i = (int)d;
+		
+		long l = 10L;
+		int j = (int)l;
+		
+		System.out.println("==============================");
+		
+		//연산이 일어날 때, 형변환
+		//1. 서로 다른 타입 형변환에서는 큰 타입을 따라간다.
+		//2. int 보다 작은 타입의 연산에서는 int가 된다.
+		//
+		
+	}
+
+}
