@@ -1,0 +1,28 @@
+package day02;
+
+public class Tv {
+	
+	//객체로 생성할 class들은 main이 없다.
+	//객체는 멤버변수 메서드 생성자로 구성되어 있다.
+	//멤버변수 = 전역변수 = 필드
+	String company;
+	int channel;
+	boolean power;
+	
+	//메서드
+	void changeChannel(int channel) {
+		this.channel = channel;
+	}
+	
+	void power() {
+		power = !power;
+		if(power) {
+			System.out.println("전원을 켭니다");
+		} else {
+			System.out.println("전원을 끕니다");
+		}
+	}
+	
+	
+
+}
