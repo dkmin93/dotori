@@ -1,0 +1,14 @@
+package day03;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Person p = new Person("hong", 20, 123);
+		Person p2 = new Person("kim", 10);
+		
+		
+		
+	}
+
+}
