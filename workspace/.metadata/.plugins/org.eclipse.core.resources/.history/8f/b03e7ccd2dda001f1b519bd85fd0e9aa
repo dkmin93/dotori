@@ -1,0 +1,13 @@
+package day05;
+
+public class MainClass {
+	
+	public static void main(String[] args) {
+		
+		Printed p1 = new LG();
+		Printed p1 = new Samsung();
+		
+		
+	}
+
+}

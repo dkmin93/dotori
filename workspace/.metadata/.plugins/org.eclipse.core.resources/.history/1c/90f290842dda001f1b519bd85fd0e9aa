@@ -1,0 +1,17 @@
+package day05;
+
+public class Samsung implements Printed {
+
+	@Override
+	public void print(String doc) {
+		System.out.println("LG:" +doc);
+		
+	}
+
+	@Override
+	public void copy(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

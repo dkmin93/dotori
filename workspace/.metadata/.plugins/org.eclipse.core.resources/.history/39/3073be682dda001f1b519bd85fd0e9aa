@@ -1,0 +1,19 @@
+package day05;
+
+public class LG implements Printed {
+
+	@Override
+	public void print(String doc) {
+		System.out.println("LG:" +doc);
+		
+	}
+
+	@Override
+	public void copy(int i) {
+		System.out.println("LG프린터로 복사했습니다");
+		
+	}
+
+	
+	
+}
