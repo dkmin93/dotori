@@ -1,0 +1,23 @@
+package day06;
+
+public class dotori {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
+
+
+class Solution {
+    boolean solution(String s) {
+        boolean answer = true;
+        String us = s.toUpperCase();
+        
+      
+
+        return answer;
+    }
+}

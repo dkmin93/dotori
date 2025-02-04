@@ -1,0 +1,32 @@
+package day06;
+
+public class dotori {
+
+	public static void main(String[] args) {
+
+
+
+	}
+
+}
+
+
+class Solution {
+	boolean solution(String s) {
+		boolean answer = true;
+		int cntp = 0;
+		int cnty = 0;
+		String us = s.toUpperCase();
+		char[] arr = us.toCharArray();
+
+		for(char a : arr) {
+			if (a == 'P') {
+				cntp += 1;
+			} else if(a == 'Y') {
+				cnty += 1;
+			}
+		}
+
+		return answer;
+	}
+}

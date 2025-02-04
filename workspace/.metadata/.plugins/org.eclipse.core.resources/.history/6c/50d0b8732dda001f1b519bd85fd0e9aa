@@ -1,9 +1,0 @@
-package day05;
-
-public interface Printed {
-	
-	void print (String doc);
-	void copy (int i);
-	
-
-}
